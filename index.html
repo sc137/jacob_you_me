@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Jacob's Pic - You and Me</title>
+
+<style>
+	
+	body {
+	  margin:0;
+	  padding:0;
+	  overflow:hidden;
+	  background: white;
+	}
+		
+	</style>
+
+<script>
+	var you_me
+	
+	function init() {
+		you_me = document.querySelector("#fs_img");
+		
+		you_me.width = window.innerWidth;
+		you_me.height = window.innerHeight;
+		
+		window.onresize = function() {
+			you_me.width = window.innerWidth;
+			you_me.height = window.innerHeight;
+		}
+	}
+	
+	</script>
+</head>
+
+<body onload="init();">
+	
+	<img src=you_me.png id="fs_img">
+	
+	
+
+</body>
+</html>
