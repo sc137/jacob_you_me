@@ -1,5 +1,3 @@
 # jacob_you_me
 
-Jacob drew me a picture and I wanted it on the web, full screen
-
-http://cantus.us/photos/Jacob_You_and_Me/
+[My kid drew this for me.](http://sc137.github.io/jacob_you_me/)
